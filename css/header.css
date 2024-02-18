@@ -1,0 +1,48 @@
+
+.header{
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-menu{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.header-menu a {
+    padding: 10px 5px;
+    display: block;
+}
+.contato{
+    background: #D8271B;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color:#2A0000;
+    font-size: 1.3rem;
+    font-family: 'SairaSemiCondesed';
+    font-weight: lighter;
+}
+@media (max-width:736px) {
+    .header{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+       
+    }
+    .header-menu{
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.2rem;
+    }
+
+}

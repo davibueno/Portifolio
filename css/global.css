@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    font-family: 'Fira Code' 'SairaSemiCondesed', Arial, sans-serif;
+    margin: 0px;
+    background-color: #FFE5DF;
+    height: 2290px;
+
+}
+
+h1, h2,h3, p{
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
