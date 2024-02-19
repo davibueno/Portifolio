@@ -50,9 +50,21 @@ h1::after{
  .introducao div{
     text-align: center;
 }
-
  h1::after{
     bottom: 6rem;
+    width: 430px;
+ }
+
+ }
+ @media (max-width:450px){
+    h1{
+        font-size: 3rem;
+        line-height: 1.1;
+
+    }
+
+    h1::after{
+        display: none;
  }
 
  }
