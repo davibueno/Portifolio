@@ -1,0 +1,69 @@
+.contato-container{
+    border-top: 12px solid #BFA09C;
+
+}
+    .dados-contato{
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding: 40px;
+            
+    }
+    .dados-contato p{
+      font-family: 'SairaSemiCondesed';
+        font-size: 2rem; 
+      color: #2a0000cc;
+    }
+    .fone{
+        position: relative;
+    }
+    .fone::before{
+        content: '';
+        display: block;
+        position: absolute;
+        background: url('../img-pro/telefone.svg') no-repeat;
+        width: 20px;
+        height: 20px;
+        z-index: -1;
+        top: 10px;
+        left: -29px;
+    }
+    .instagram{
+        position: relative;
+    }
+    .instagram::before{
+        content: '';
+        display: block;
+        position: absolute;
+        background: url('../img-pro/instagram.svg') no-repeat;
+        width: 32px;
+        height: 32px;
+        z-index: -1;
+        top: 7px;
+        left: -40px;
+    }
+    .email{
+        position: relative;
+    }
+    .email::before{
+        content: '';
+        display: block;
+        position: absolute;
+        background: url('../img-pro/email.svg') no-repeat;
+        width: 20px;
+        height: 20px;
+        z-index: -1;
+        top: 10px;
+        left: -29px;
+    }
+    @media (max-width:900px){
+        .dados-contato{
+            grid-template-columns: 1fr;
+            justify-items: start;
+        }
+        .dados-contato p{
+            font-size: 1.5rem;
+        }
+    }

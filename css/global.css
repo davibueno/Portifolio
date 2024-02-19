@@ -19,3 +19,10 @@ img{
     max-width: 100%;
     display: block;
 }
+.texto-footer{
+    font-family: 'SairaSemiCondesed';
+    padding: 40px;
+    font-size: 1.625rem;
+    color: #BFA09C;
+    text-align: center;
+}
