@@ -84,7 +84,7 @@ strong{
    
 }
 
-    @media ((min-width:300px) and (max-width:736px)){
+    @media (max-width:736px){
         .experiencia-container{
             grid-template-columns: 1fr;
             gap: 0px;

@@ -7,6 +7,7 @@
     justify-items: start;
     align-items: center;
     padding: 86px;
+    border-bottom: 12px;
     
 
 }
@@ -89,4 +90,29 @@ gap: 20px;
     color: #fff;
     font-size: 1.5rem;
     
+}
+@media (max-width:969px){
+    .formacao{
+    grid-template-columns: 1fr;
+
+    }
+    .bloco-cursos{
+        grid-template-columns:1fr 1fr ;
+    }
+    .formacao-titulo{
+      max-width: 100%;
+      font-size: 3rem;
+    }
+
+}
+@media (max-width:520px){
+    .formacao{
+        padding: 20px;
+    }
+    .bloco-cursos{
+        grid-template-columns:1fr;
+    }
+    .formacao-titulo{
+font-size: 2rem;
+      }
 }
